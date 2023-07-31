@@ -85,7 +85,7 @@ const Modal = ({ handleClose, text, type }) => {
             {type === "dropIn" && (
                 <motion.div
                     onClick={(e) => e.stopPropagation()}
-                    className='w-[clamp(50%,700px,90%)] h-[60%] sm:h-[55%] md:h-[65%] flex flex-col items-center m-auto px-8 py-8 rounded-xl bg-gradient-to-b from-[#9a9a9a] via-[#c0c0c0] to-[#e6e6e6] '
+                    className='w-[clamp(50%,700px,90%)]  sm:h-[55%] md:h-[65%] flex flex-col items-center m-auto px-8 py-8 rounded-xl bg-gradient-to-b from-[#9a9a9a] via-[#c0c0c0] to-[#e6e6e6] '
                     variants={dropIn}
                     initial="hidden"
                     animate="visible"
@@ -130,7 +130,7 @@ const Modal = ({ handleClose, text, type }) => {
             {type === "flip" && (
                 <motion.div
                 onClick={(e) => e.stopPropagation()}
-                className='w-[clamp(50%,700px,90%)] h-[60%] sm:h-[55%] md:h-[65%] flex flex-col items-center m-auto px-8 py-8 rounded-xl bg-gradient-to-b from-[#9a9a9a] via-[#c0c0c0] to-[#e6e6e6] '
+                className='w-[clamp(50%,700px,90%)]  sm:h-[55%] md:h-[65%] flex flex-col items-center m-auto px-8 py-8 rounded-xl bg-gradient-to-b from-[#9a9a9a] via-[#c0c0c0] to-[#e6e6e6] '
                 variants={flip}
                 initial="hidden"
                 animate="visible"
@@ -175,7 +175,7 @@ const Modal = ({ handleClose, text, type }) => {
             {type === "newspaper" && (
                 <motion.div
                 onClick={(e) => e.stopPropagation()}
-                className='w-[clamp(50%,700px,90%)] h-[60%] sm:h-[55%] md:h-[65%] flex flex-col items-center m-auto px-8 py-8 rounded-xl bg-gradient-to-b from-[#9a9a9a] via-[#c0c0c0] to-[#e6e6e6] '
+                className='w-[clamp(50%,700px,90%)]  sm:h-[55%] md:h-[65%] flex flex-col items-center m-auto px-8 py-8 rounded-xl bg-gradient-to-b from-[#9a9a9a] via-[#c0c0c0] to-[#e6e6e6] '
                 variants={newspaper}
                 initial="hidden"
                 animate="visible"
