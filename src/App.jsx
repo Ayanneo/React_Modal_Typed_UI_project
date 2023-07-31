@@ -16,7 +16,7 @@ function App() {
       <Analytics />
       <Newsletter />
       <Cards />
-      <Footer />
+     
     </div>
   );
 }
